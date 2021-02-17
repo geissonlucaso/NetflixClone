@@ -93,3 +93,13 @@ header nav a:hover {
 .botao i {
     margin-right: 8px;
 }
+
+.container {
+    margin: 0 30px;
+}
+
+.filme-principal .container {
+    width: 70%;
+}
+
+
