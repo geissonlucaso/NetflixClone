@@ -1,5 +1,6 @@
 /* Variáveis */
 :root {
+    /* Cores */
     --vermelho: #E50914;
     --preto: #141414;
     --cinza: #AAA;
@@ -16,15 +17,15 @@
 
 /* ============================================================= */
 /* Seletores */
-/* Body */
 body {
     background: var(--preto);
     font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
 
 /* ============================================================= */
 /* Classes */
-/* Container */
+/* Header - Logo, Menu*/
 header .container {
     display: flex;
     flex-direction: row;
@@ -47,4 +48,12 @@ header nav a {
 
 header nav a:hover {
     color: var(--branco);
+}
+
+/* Main - Filme principal*/
+.filme-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url("../img/capa-house.jpg");
+    background-size: cover;
+    height: 400px;
 }
