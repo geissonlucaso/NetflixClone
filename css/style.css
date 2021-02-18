@@ -106,9 +106,13 @@ header nav a:hover {
     height: 100%;
     width: 100%;
     display: block;
+    background-size: cover;
+}
+
+.box-filme:hover {
+    transform: scale(0.9);
 }
 
 .carrossel-filmes {
     margin-top: 5px;
 }
-
